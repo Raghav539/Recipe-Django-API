@@ -1,3 +1,6 @@
+# GItbub Actions workflow for running tests and linting on push events.
+
+
 name: Checks
 
 on: [push]
