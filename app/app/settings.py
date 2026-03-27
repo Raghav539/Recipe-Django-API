@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core'
+    'core',
     'rest_framework',
-    'drf-spectacular',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -138,5 +138,5 @@ AUTH_USER_MODEL = 'core.User'
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_SCHEMA_CLASS': ' drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
